@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ev_onmouseover -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body contenteditable="false">
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="./smiley.gif" alt="Smiley" width="32" height="32" style="height: 32px; width: 32px;">
+
+<p>The function bigImg() is triggered when the user mouse over the image. This function enlarges the image.</p>
+<p>The function normalImg() is triggered when the mouse pointer is moved out of the image. That function sets the height and width of the image back to normal.</p>
+
+<script>
+function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
+</script>
+
+
+
+</body></html>
